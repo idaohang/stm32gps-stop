@@ -1,0 +1,44 @@
+*** Creating Trace Output File 'stm32gps.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"stm32f10x_it.o"'
+### List of Objects: adding '"stm32gps_config.o"'
+### List of Objects: adding '"gpio.o"'
+### List of Objects: adding '"misc.o"'
+### List of Objects: adding '"stm32f10x_bkp.o"'
+### List of Objects: adding '"stm32f10x_exti.o"'
+### List of Objects: adding '"stm32f10x_flash.o"'
+### List of Objects: adding '"stm32f10x_fsmc.o"'
+### List of Objects: adding '"stm32f10x_gpio.o"'
+### List of Objects: adding '"stm32f10x_iwdg.o"'
+### List of Objects: adding '"stm32f10x_pwr.o"'
+### List of Objects: adding '"stm32f10x_rcc.o"'
+### List of Objects: adding '"stm32f10x_rtc.o"'
+### List of Objects: adding '"stm32f10x_sdio.o"'
+### List of Objects: adding '"stm32f10x_spi.o"'
+### List of Objects: adding '"stm32f10x_tim.o"'
+### List of Objects: adding '"stm32f10x_usart.o"'
+### List of Objects: adding '"stm32f10x_wwdg.o"'
+### List of Objects: adding '"core_cm3.o"'
+### List of Objects: adding '"system_stm32f10x.o"'
+### List of Objects: adding '"stm32gps_board.o"'
+### List of Objects: adding '".\startup_stm32f10x_hd.o"'
+### List of Objects: adding '"usart.o"'
+### List of Objects: adding '"gps_app.o"'
+### List of Objects: adding '"gsm_app.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "main.o" "stm32f10x_it.o" "stm32gps_config.o" "gpio.o" "misc.o" "stm32f10x_bkp.o" "stm32f10x_exti.o" "stm32f10x_flash.o" "stm32f10x_fsmc.o" "stm32f10x_gpio.o" "stm32f10x_iwdg.o" "stm32f10x_pwr.o" "stm32f10x_rcc.o" "stm32f10x_rtc.o" "stm32f10x_sdio.o" "stm32f10x_spi.o" "stm32f10x_tim.o" "stm32f10x_usart.o" "stm32f10x_wwdg.o" "core_cm3.o" "system_stm32f10x.o" "stm32gps_board.o" ".\startup_stm32f10x_hd.o" "usart.o" "gps_app.o" "gsm_app.o" --strict --scatter "stm32gps.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\stm32gps.map" -o "stm32gps.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'stm32gps.axf'
+### ADS-LD Command File: 'stm32gps.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'stm32gps.lnp', Handle=0x00000D28
+### Writing '.lnp' file
+### ADS-LD Command file 'stm32gps.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

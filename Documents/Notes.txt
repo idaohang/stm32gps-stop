@@ -1,0 +1,163 @@
+
+1. printf重定向
+Ref: http://blog.csdn.net/wdscq1234/article/details/7944036
+D:\GitHub\stm32gprs\Project\STM32F10x_StdPeriph_Template\stm32_sim908_cfg.c
+
+2.  硬件改版建议
+1. 串口1连接gps，串口2连接gsm，串口3作为调试串口，与开发板一致，方便对比测试。
+2. 设计好调试接口和指示灯（不要使用JTAG的复用管脚），方便程序调试和烧写，最好是标准接口。
+3.
+
+主函数
+main()
+{
+	初始化IO
+	关闭GPS、GSM电源
+    初始化按钮（干簧管）
+	初始化时钟、中断、定时器、Systick等
+	初始化串口（包括GPS、GSM）
+	初始化全局变量
+	
+// 主循环
+	while(1)
+	{
+		if(干簧管有效 || 报警标志有效)
+		{
+			打开GPS电源
+			while(1)
+			{
+				延时2s
+				读取GPS数据
+				if(数据有效)
+				{
+					break;
+				}
+				if(GPS接收次数 > n次)
+				{
+					break;
+				}
+				设置RTC ALARM为10s
+				进入STOP模式
+				配置SYSCLK
+			}
+			打开GSM电源
+			while(1)
+			{
+				初始化GSM、检查SIM卡、检查是否联网
+				连接服务器
+				获取IMEI
+				发送登陆数据包、获取设置睡眠间隔的值
+				if(发送错误次数 > 10)
+				{
+					break;
+				}
+				
+				读取GPS数据
+				读取GSM相关数据（基站、IMSI等）
+				if(干簧管无效 && 报警标志有效)
+				{
+					发送ALARM数据包
+					设置g_alarmPacketFlag有效
+				}
+				else
+				{
+					发送GPS数据包
+					设置g_alarmPacketFlag无效
+				}
+				if(发送错误次数 > 5)
+				{
+					关闭网络连接
+					break;
+				}
+				if(发送成功次数 > 1)
+				{
+					if(报警标志有效 && g_alarmPacketFlag有效)
+					{
+						设置报警标志无效
+					}
+					else
+					{
+						设置报警标志有效
+					}
+					break;
+				}
+				序列号++
+				延时1s
+			}
+		}
+	
+		关闭GSM模块
+		关闭GPS、GSM电源
+		设置RTC ALARM为睡眠间隔
+		进入Standby模式
+		配置SYSCLK
+	}
+}
+
+
+
+
+伪代码如下
+主函数
+main()
+{
+	初始化IO
+	关闭GPS、GSM电源
+	初始化时钟、中断、定时器等
+	初始化串口
+	打开定时器（定时器时间为2 min）
+	初始化全局变量
+	打开GPS电源
+	while(1)
+	{
+		读取GPS数据
+		if(数据有效)
+		{
+			break;
+		}
+		if(GPS接收次数 > 5)
+		{
+			break;
+		}
+		设置RTC ALARM为10s
+		进入STOP模式
+		设置RCC
+	}
+	打开GSM电源
+	while(1)
+	{
+		初始化GSM、检查SIM卡、检查是否联网
+		连接服务器
+		获取IMEI
+		发送登陆数据包
+		while(1)
+		{
+			读取GPS数据
+			读取GSM相关数据（基站、IMSI等）
+			发送GPS数据包
+			if(发送错误次数 > 10)
+			{
+				break;
+			}
+			if(发送成功次数 > 6)
+			{
+				break;
+			}
+		}
+		if(发送成功次数 > 6)
+			{
+				break;
+			}
+	}
+	关闭GPS、GSM电源
+	设置RTC ALARM为2 min
+	进入Standby模式
+}
+定时器中断
+TIM2_IRQHandler()
+{
+	关闭GPS、GSM电源
+	设置RTC ALARM为30 sec
+	进入Standby模式
+}
+
