@@ -180,6 +180,7 @@ int main(void)
 //    uint16_t removeNum = 0;    // Remove detect counter
     uint16_t sendLen = 0;      // GPRS send length (used for GPS and ALARM Msg)
     uint32_t sleepSec = 0;
+	uint32_t alarmStickFlag = 0;    // 是否有移开的动作 1- 有 0-无
 
     // Used for parse GPRS Received Data
     char *pRecvBuf = NULL;     // GPRS Received buffer
@@ -277,6 +278,17 @@ int main(void)
         if(((uint32_t)Bit_RESET == STM_EVAL_PBGetState(BUTTON_KEY))
                 || (SET == g_alarmFlag))
         {
+			/////////////////////////////////////////////////////////////////
+            // Check Stick Action and set flag
+            /////////////////////////////////////////////////////////////////
+            if((uint32_t)Bit_SET == STM_EVAL_PBGetState(BUTTON_KEY))
+            {
+				alarmStickFlag = 1;  // Not Stick
+            }
+			else
+			{
+				alarmStickFlag = 0;
+			}
             /////////////////////////////////////////////////////////////////
             // First Power ON GPS
             /////////////////////////////////////////////////////////////////
@@ -550,8 +562,8 @@ int main(void)
 	                    DEBUG("GPS Recv Error\n");
 	                }
 	                
-	                ParseGPSInfo(rmc, &g_gpsData);
 				}
+				ParseGPSInfo(rmc, &g_gpsData);
                 /////////////////////////////////////////////////////////////////
                 // Get GSM related Data and Analyze, Package GPS Message
                 /////////////////////////////////////////////////////////////////
@@ -579,7 +591,9 @@ int main(void)
                 sendLen = FACTORY_REPORT_MSGLEN;
 #else
                 // detect remove action and alarm flag is setted then send alarm msg
-                if(((uint32_t)Bit_SET == STM_EVAL_PBGetState(BUTTON_KEY))
+                //if(((uint32_t)Bit_SET == STM_EVAL_PBGetState(BUTTON_KEY))
+                //        && (SET == g_alarmFlag))
+                if((1 == alarmStickFlag)
                         && (SET == g_alarmFlag))
                 {
                     PackAlarmMsg();
