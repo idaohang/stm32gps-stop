@@ -158,14 +158,14 @@ unsigned char GPSInfoAnalyze(pST_GPSRMCINFO pRmcInfo)
         {
             unsigned int i;
 
-            printf("GPSInfoAnalyze recv %d bytes\r\n", uLen);
+            DEBUG("GPSInfoAnalyze recv %d bytes\r\n", uLen);
             for (i = 0; i < uLen; i++)
             {
-                printf("%c", GPSBuffer[i]);
+                DEBUG("%c", GPSBuffer[i]);
             }
 
-            printf("\r\n");
-            printf("GPSInfoAnalyze done\r\n");
+            DEBUG("\r\n");
+            DEBUG("GPSInfoAnalyze done\r\n");
         }
 #endif
 
@@ -316,12 +316,12 @@ void ParseGPSInfo(ST_GPSRMCINFO rmcInfo, pST_GPSDATA pGpsData)
 
 	pGpsData->utc.i = mktime(&t);
 #ifdef DBG_ENABLE_MACRO
-	printf("UTC:");
+	DEBUG("UTC:");
 	for(i = 0; i < 4; i++)
 	{
-		printf("0x%x-", pGpsData->utc.s[i]);
+		DEBUG("0x%x-", pGpsData->utc.s[i]);
 	}
-	printf("\n");
+	DEBUG("\n");
 #endif
 
 	// latitude
@@ -341,12 +341,12 @@ void ParseGPSInfo(ST_GPSRMCINFO rmcInfo, pST_GPSDATA pGpsData)
 	}
 
 #ifdef DBG_ENABLE_MACRO
-	printf("LATI:");
+	DEBUG("LATI:");
 	for(i = 0; i < 4; i++)
 	{
-		printf("0x%x-", pGpsData->latitude.s[i]);
+		DEBUG("0x%x-", pGpsData->latitude.s[i]);
 	}
-	printf("\n");
+	DEBUG("\n");
 #endif
 
 	// longitude
@@ -366,12 +366,12 @@ void ParseGPSInfo(ST_GPSRMCINFO rmcInfo, pST_GPSDATA pGpsData)
 	}
 
 #ifdef DBG_ENABLE_MACRO
-	printf("LONGI:");
+	DEBUG("LONGI:");
 	for(i = 0; i < 4; i++)
 	{
-		printf("0x%x-", pGpsData->longitude.s[i]);
+		DEBUG("0x%x-", pGpsData->longitude.s[i]);
 	}
-	printf("\n");
+	DEBUG("\n");
 #endif
 
 	// 1 knot = 1.85km/h
@@ -382,14 +382,14 @@ void ParseGPSInfo(ST_GPSRMCINFO rmcInfo, pST_GPSDATA pGpsData)
 	pGpsData->status = rmcInfo.status;
 
 #ifdef DBG_ENABLE_MACRO
-	printf("SPEED: 0x%x\n", pGpsData->speed);
-	printf("COURSE:");
+	DEBUG("SPEED: 0x%x\n", pGpsData->speed);
+	DEBUG("COURSE:");
 	for(i = 0; i < 2; i++)
 	{
-		printf("0x%x-", pGpsData->course.s[i]);
+		DEBUG("0x%x-", pGpsData->course.s[i]);
 	}
-	printf("\n");
-	printf("STATUS: 0x%x\n", pGpsData->status);
+	DEBUG("\n");
+	DEBUG("STATUS: 0x%x\n", pGpsData->status);
 #endif
 	
 }

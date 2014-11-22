@@ -30,9 +30,11 @@
 
 #define SYS_TICK_PER_SEC 100u
 
-#define GSM_SUCCESS_TIMES   1  // GSM 成功发送次数
+#define GSM_SUCCESS_TIMES   0  // GSM 成功发送次数 = value+1
 #define GPS_RETERY_TIMES    4  // GPS 重试次数 
 #define GSM_RETERY_TIMES    4 // GSM 错误重发次数
+
+#define STICK_ON_SEC      300  // 3sec stick on times
 
 // RTC Alarm Second [1 - 2^32]
 #define SLEEP_NORMAL_SEC 120 // 2min // 86400 // 24hour SHOULD SET 86400 = 24hour

@@ -74,7 +74,7 @@ void usart_init(uint32_t chan)
         st_Serial[idx].ucRTick = 2;
     }
 
-    //printf("idx %d ucRTick %d", idx, st_Serial[idx].ucRTick);
+    //DEBUG("idx %d ucRTick %d", idx, st_Serial[idx].ucRTick);
 }
 
 uint16_t USART_Send(USART_TypeDef* USARTx, uint8_t *Data, uint16_t nBytes)
@@ -98,7 +98,7 @@ void usart_sendbuffer(uint32_t chan, char *byData, uint32_t *pReqLen)
 
     while (reqLen > 0)
     {
-        //printf("%d-%c\n", *pReqLen - reqLen, byData[*pReqLen - reqLen]);
+        //DEBUG("%d-%c\n", *pReqLen - reqLen, byData[*pReqLen - reqLen]);
         USART_SendData(usart_hw_base, byData[*pReqLen - reqLen]);
 
         while (USART_GetFlagStatus(usart_hw_base, USART_FLAG_TXE) == RESET)
@@ -129,7 +129,7 @@ unsigned char usart_readbuffer(uint32_t chan, char *byData, unsigned int *pReqLe
             dFlag = USART_NEEDWAIT;
             *pReqLen = 0;
 #ifdef DBG_usart_readbuffer
-            printf("usart_readbuffer[%d] busy\n", chan);
+            DEBUG("usart_readbuffer[%d] busy\n", chan);
 #endif
         }
         else
@@ -147,15 +147,15 @@ unsigned char usart_readbuffer(uint32_t chan, char *byData, unsigned int *pReqLe
             }
 
 #ifdef DBG_usart_readbuffer
-            printf("usart_readbuffer[%d] ", chan);
-            printf("curLen %d ", curLen);
-            printf("reqLen %d\n", ReqLen);
+            DEBUG("usart_readbuffer[%d] ", chan);
+            DEBUG("curLen %d ", curLen);
+            DEBUG("reqLen %d\n", ReqLen);
 #endif
 
             if (st_Serial[idx].RBuffWpt > st_Serial[idx].RBuffRpt)
             {
                 // 读指针在写指针的前面
-                //printf("rd before wr\n");
+                //DEBUG("rd before wr\n");
 
                 memcpy(byData, st_Serial[idx].RBuffRpt, curLen);
                 st_Serial[idx].RBuffRpt += curLen;
@@ -172,7 +172,7 @@ unsigned char usart_readbuffer(uint32_t chan, char *byData, unsigned int *pReqLe
 
                 if (saveLen <= backLen) // 只需读后半部就可以完成
                 {
-                    //printf("only end half\n");
+                    //DEBUG("only end half\n");
                     memcpy(byData, st_Serial[idx].RBuffRpt, saveLen);
                     st_Serial[idx].RBuffRpt += saveLen;
 
@@ -188,7 +188,7 @@ unsigned char usart_readbuffer(uint32_t chan, char *byData, unsigned int *pReqLe
                 else // 要取两部分数据
                 {
 
-                    //printf("both front and end half\n");
+                    //DEBUG("both front and end half\n");
                     // 先取后半部分数据
                     memcpy(byData, st_Serial[idx].RBuffRpt, backLen);
                     st_Serial[idx].RBuffRpt = st_Serial[idx].RStartpt;  // 指到前部
@@ -204,7 +204,7 @@ unsigned char usart_readbuffer(uint32_t chan, char *byData, unsigned int *pReqLe
             }
         }
 #ifdef DBG_usart_readbuffer
-        printf("usart_readbuffer[%d],st_reqLen %d, reqLen %d\r\n",
+        DEBUG("usart_readbuffer[%d],st_reqLen %d, reqLen %d\r\n",
                 chan, st_Serial[idx].ucRLen, *pReqLen);
 #endif
     }

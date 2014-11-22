@@ -90,31 +90,31 @@ void ShowLoginMsg(void)
 {
     uint32_t i;
     // imei
-    printf("IMEI:");
+    DEBUG("IMEI:");
     for(i = 0; i < IMEI_INFO_LEN; i++)
     {
-        printf("%c-", imeiBuf[i]);
+        DEBUG("%c-", imeiBuf[i]);
     }
-    printf("\r\n");
+    DEBUG("\r\n");
     // login msg
-    printf("LOGIN MSG:");
+    DEBUG("LOGIN MSG:");
     for(i = 0; i < PROTO_LOGIN_BUF; i++)
     {
-        printf("0x%x-", loginBuf[i]);
+        DEBUG("0x%x-", loginBuf[i]);
     }
-    printf("\r\n");
+    DEBUG("\r\n");
 }
 
 void ShowGpsMsg(void)
 {
     uint32_t i;
     // gps msg
-    printf("GPS MSG:");
+    DEBUG("GPS MSG:");
     for(i = 0; i < PROTO_GPS_BUF; i++)
     {
-        printf("0x%x-", gpsBuf[i]);
+        DEBUG("0x%x-", gpsBuf[i]);
     }
-    printf("\r\n");
+    DEBUG("\r\n");
 }
 #endif // DBG_ENABLE_MACRO
 
@@ -229,10 +229,10 @@ int main(void)
     /////////////////////////////////////////////////////////////////
     // Configure LED, BUTTON and USART(GPS + GSM + DEBUG)
     /////////////////////////////////////////////////////////////////
-#ifdef DBG_ENABLE_MACRO
+
     stm32gps_led_cfg();
     STM_EVAL_LEDOff(LED1);
-
+#ifdef DBG_ENABLE_MACRO
     stm32gps_com_debug_cfg();
 #endif // DBG_ENABLE_MACRO
 
@@ -268,6 +268,7 @@ int main(void)
 		//MX_GPIO_Init();
 	    //GPSPowerOff();
 	    //GSM_PowerOff();
+	    delay_10ms(STICK_ON_SEC);
 
         // If Stick On Car or sth
         if(((uint32_t)Bit_RESET == STM_EVAL_PBGetState(BUTTON_KEY))
@@ -354,7 +355,6 @@ int main(void)
             // Second Power ON GSM
             /////////////////////////////////////////////////////////////////
             GSM_PowerOn();
-			printf("GSM_PowerOn\n");
 			//GSM_ClearBuffer();
 			// delay 2 sec
             //delay_10ms(800);
@@ -467,7 +467,7 @@ int main(void)
 		                                      + ((*(pfeed + 8)) << 16)
 		                                      + ((*(pfeed + 9)) << 8)
 		                                      + (*(pfeed + 10)));
-						DEBUG("g_setSleepSec = %d\n", g_setSleepSec);
+						DEBUG("g_setSleepSec = %d\n", sleepSec);
 		                // Check sleep time setting value
 		                if((sleepSec > SLEEP_TIME_MIN) && (sleepSec < SLEEP_TIME_MAX))
 		                {
@@ -483,11 +483,11 @@ int main(void)
 				}
             }
 			// If Login Msg Send Error then break go to sleep
-			if(errNum > 5)
-			{
-				break;
-			}
-			errNum = 0;
+			//if(errNum > 5)
+			//{
+			//	break;
+			//}
+			//errNum = 0;
 
             
 #endif // FACTORY_ENABLE_MACRO
@@ -621,7 +621,7 @@ int main(void)
                     {
                         g_alarmFlag = SET;
                     }
-                    printf("send_ok alarmflag = %d\n", g_alarmFlag);
+                    DEBUG("send_ok alarmflag = %d\n", g_alarmFlag);
                     break;
                 }
 
@@ -646,6 +646,7 @@ int main(void)
         /////////////////////////////////////////////////////////////////
         // Power OFF GPS and GSM before going into sleep mode
         /////////////////////////////////////////////////////////////////
+        STM_EVAL_LEDOff(LED1);
         GPRS_CPOwd();
         GPSPowerOff();
         GSM_PowerOff();
@@ -764,7 +765,7 @@ void PackLoginMsg(void)
     offset++;
     if(offset != (EELINK_LOGIN_MSGLEN))
     {
-        printf("PackLoginMsg ERROR!\n");
+        DEBUG("PackLoginMsg ERROR!\n");
     }
 }
 
@@ -923,7 +924,7 @@ void PackGpsMsg(void)
 
     if(offset != (EELINK_GPS_MSGLEN))
     {
-        printf("PackGpsMsg ERROR!\n");
+        DEBUG("PackGpsMsg ERROR!\n");
     }
 }
 
@@ -987,7 +988,7 @@ void PackAlarmMsg(void)
 
     if(offset != (EELINK_ALARM_MSGLEN))
     {
-        printf("PackAlarmMsg ERROR!\n");
+        DEBUG("PackAlarmMsg ERROR!\n");
     }
 }
 
@@ -1085,7 +1086,7 @@ void PackFactoryMsg(void)
 
     if(offset != (FACTORY_REPORT_MSGLEN))
     {
-        printf("PackFactoryMsg ERROR!\n");
+        DEBUG("PackFactoryMsg ERROR!\n");
     }
 }
 

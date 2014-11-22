@@ -398,14 +398,14 @@ unsigned char GSM_SendAT(char *pCMD, char *pCMDBack, uint32_t CMDLen)
 
         if (len > 0)
         {
-            printf("GSM_SendAT send\r\n");
+            DEBUG("GSM_SendAT send\r\n");
             for (tmpIdx = 0; tmpIdx < len; tmpIdx ++)
             {
-                //printf("%d-%c\r\n", tmpIdx, pBackBuf[tmpIdx]);
-                printf("%c",pCMD[tmpIdx]);
+                //DEBUG("%d-%c\r\n", tmpIdx, pBackBuf[tmpIdx]);
+                DEBUG("%c",pCMD[tmpIdx]);
             }
-            printf("\r\n");
-            printf("GSM_SendAT done\r\n");
+            DEBUG("\r\n");
+            DEBUG("GSM_SendAT done\r\n");
         }
     }
 #endif
@@ -419,10 +419,10 @@ unsigned char GSM_SendAT(char *pCMD, char *pCMDBack, uint32_t CMDLen)
             len = USART_GSM_BUFSIZE;
             delay_10ms(10);
 
-            //printf("GSM_SendAT before usart_readbuffer len %d\n", len);
+            //DEBUG("GSM_SendAT before usart_readbuffer len %d\n", len);
 
             retFlag = usart_readbuffer(STM32_SIM908_GSM_COM, pBackBuf, &len);
-            //printf("GSM_SendAT after usart_readbuffer len %d\n", len);
+            //DEBUG("GSM_SendAT after usart_readbuffer len %d\n", len);
 
 #ifdef DBG_ENABLE_MACRO
             {
@@ -430,15 +430,15 @@ unsigned char GSM_SendAT(char *pCMD, char *pCMDBack, uint32_t CMDLen)
 
                 if (len > 0 && retFlag == USART_ENPROCESS)
                 {
-                    printf("GSM_SendAT recv %d bytes\r\n", len);
+                    DEBUG("GSM_SendAT recv %d bytes\r\n", len);
                     for (tmpIdx = 0; tmpIdx < len; tmpIdx ++)
                     {
-                        //printf("%d-%c\r\n", tmpIdx, pBackBuf[tmpIdx]);
-                        printf("%c",pBackBuf[tmpIdx]);
+                        //DEBUG("%d-%c\r\n", tmpIdx, pBackBuf[tmpIdx]);
+                        DEBUG("%c",pBackBuf[tmpIdx]);
                     }
-                    printf("\r\n");
+                    DEBUG("\r\n");
 					
-                    printf("GSM_SendAT recv done\r\n");
+                    DEBUG("GSM_SendAT recv done\r\n");
                 }
             }
 #endif
@@ -471,21 +471,21 @@ unsigned char GSM_SendAT_rsp(char *pCMD, char *pCMDBack,
     len = CMDLen;
 
 #ifdef DBG_ENABLE_MACRO
-            {
-                uint32_t tmpIdx;
+        {
+            uint32_t tmpIdx;
 
-                if (len > 0)
+            if (len > 0)
+            {
+                DEBUG("GSM_SendAT send\r\n");
+                for (tmpIdx = 0; tmpIdx < len; tmpIdx ++)
                 {
-                    printf("GSM_SendAT send\r\n");
-                    for (tmpIdx = 0; tmpIdx < len; tmpIdx ++)
-                    {
-                        //printf("%d-%c\r\n", tmpIdx, pBackBuf[tmpIdx]);
-                        printf("%c",pCMD[tmpIdx]);
-                    }
-                    printf("\r\n");
-                    printf("GSM_SendAT done\r\n");
+                    //DEBUG("%d-%c\r\n", tmpIdx, pBackBuf[tmpIdx]);
+                    DEBUG("%c",pCMD[tmpIdx]);
                 }
+                DEBUG("\r\n");
+                DEBUG("GSM_SendAT done\r\n");
             }
+        }
 #endif
 
     usart_sendbuffer(STM32_SIM908_GSM_COM, pCMD, (unsigned int *) &len);
@@ -495,9 +495,9 @@ unsigned char GSM_SendAT_rsp(char *pCMD, char *pCMDBack,
         len = USART_GSM_BUFSIZE;
         delay_10ms(10);
 
-        //printf("GSM_SendAT before usart_readbuffer len %d\n", len);
+        //DEBUG("GSM_SendAT before usart_readbuffer len %d\n", len);
         retFlag = usart_readbuffer(STM32_SIM908_GSM_COM, pBackBuf, &len);
-        //printf("GSM_SendAT after usart_readbuffer len %d\n", len);
+        //DEBUG("GSM_SendAT after usart_readbuffer len %d\n", len);
 
 #ifdef DBG_ENABLE_MACRO
         {
@@ -505,14 +505,14 @@ unsigned char GSM_SendAT_rsp(char *pCMD, char *pCMDBack,
 
             if (len > 0 && retFlag == USART_ENPROCESS)
             {
-                printf("GSM_SendAT recv\r\n");
+                DEBUG("GSM_SendAT recv\r\n");
                 for (tmpIdx = 0; tmpIdx < len; tmpIdx ++)
                 {
-                    //printf("%d-%c\r\n", tmpIdx, pBackBuf[tmpIdx]);
-                    printf("%c",pBackBuf[tmpIdx]);
+                    //DEBUG("%d-%c\r\n", tmpIdx, pBackBuf[tmpIdx]);
+                    DEBUG("%c",pBackBuf[tmpIdx]);
                 }
-                printf("\r\n");
-                printf("GSM_SendAT done\r\n");
+                DEBUG("\r\n");
+                DEBUG("GSM_SendAT done\r\n");
             }
         }
 #endif
@@ -1660,24 +1660,24 @@ void GetGsmData(pST_SIMDATA pSimData, ST_IMSIINFO imsi)
 	sprintf(pSimData->Signal, "%x", signal);
 
 #ifdef DBG_ENABLE_MACRO
-	printf("STATION:");
+	DEBUG("STATION:");
 	for(i = 0; i < 9; i++)
 	{
-		printf("0x%x-", pSimData->Station[i]);
+		DEBUG("0x%x-", pSimData->Station[i]);
 	}
-	printf("\n");
-	printf("BATTERY:");
+	DEBUG("\n");
+	DEBUG("BATTERY:");
 	for(i = 0; i < 2; i++)
 	{
-		printf("0x%x-", pSimData->Battery[i]);
+		DEBUG("0x%x-", pSimData->Battery[i]);
 	}
-	printf("\n");
-	printf("SIGNAL:");
+	DEBUG("\n");
+	DEBUG("SIGNAL:");
 	for(i = 0; i < 2; i++)
 	{
-		printf("0x%x-", pSimData->Signal[i]);
+		DEBUG("0x%x-", pSimData->Signal[i]);
 	}
-	printf("\n");
+	DEBUG("\n");
 #endif
 }
 
@@ -1780,11 +1780,11 @@ unsigned char GPRS_SendData(char *pString, unsigned int len)
             len = USART_GSM_BUFSIZE;
             delay_10ms(20);
 
-            //printf("GSM_SendAT before usart_readbuffer len %d\n", len);
+            //DEBUG("GSM_SendAT before usart_readbuffer len %d\n", len);
 
             retFlag =
                     usart_readbuffer(STM32_SIM908_GSM_COM, BackBuf, &len);
-            //printf("GSM_SendAT after usart_readbuffer len %d\n", len);
+            //DEBUG("GSM_SendAT after usart_readbuffer len %d\n", len);
 
 #ifdef DBG_ENABLE_MACRO
             {
@@ -1793,18 +1793,18 @@ unsigned char GPRS_SendData(char *pString, unsigned int len)
 
                 if (len > 0 && retFlag == USART_ENPROCESS)
                 {
-                    printf("GPRS_SendData recv\r\n");
+                    DEBUG("GPRS_SendData recv\r\n");
                     for (tmpIdx = 0; tmpIdx < len; tmpIdx ++)
                     {
-                        //printf("%d-%c\r\n", tmpIdx, pBackBuf[tmpIdx]);
-                        printf("%c",BackBuf[tmpIdx]);
+                        //DEBUG("%d-%c\r\n", tmpIdx, pBackBuf[tmpIdx]);
+                        DEBUG("%c",BackBuf[tmpIdx]);
 						
                     }
-                    printf("\r\n");
-                    printf("GPRS_SendData done\r\n");
+                    DEBUG("\r\n");
+                    DEBUG("GPRS_SendData done\r\n");
                 }
             }
-			printf("%d retFlag = %d len = %d\n\n", i, retFlag, len);
+			DEBUG("%d retFlag = %d len = %d\n\n", i, retFlag, len);
 #endif
 			if (len > 0 && retFlag == USART_ENPROCESS)
             {
@@ -1853,11 +1853,11 @@ unsigned char GPRS_SendData_rsp(char *pString, unsigned int len, char **ppRecvBu
             len = USART_GSM_BUFSIZE;
             delay_10ms(20);
 
-            //printf("GSM_SendAT before usart_readbuffer len %d\n", len);
+            //DEBUG("GSM_SendAT before usart_readbuffer len %d\n", len);
 
             retFlag =
                     usart_readbuffer(STM32_SIM908_GSM_COM, pBackBuf, &len);
-            //printf("GSM_SendAT after usart_readbuffer len %d\n", len);
+            //DEBUG("GSM_SendAT after usart_readbuffer len %d\n", len);
 
 #ifdef DBG_ENABLE_MACRO
             {
@@ -1866,18 +1866,18 @@ unsigned char GPRS_SendData_rsp(char *pString, unsigned int len, char **ppRecvBu
 
                 if (len > 0 && retFlag == USART_ENPROCESS)
                 {
-                    printf("GPRS_SendData_rsp recv\r\n");
+                    DEBUG("GPRS_SendData_rsp recv\r\n");
                     for (tmpIdx = 0; tmpIdx < len; tmpIdx ++)
                     {
-                        //printf("%c\r\n", pBackBuf[tmpIdx]);
-                        printf(" [%d] 0x%x-",tmpIdx, pBackBuf[tmpIdx]);
+                        //DEBUG("%c\r\n", pBackBuf[tmpIdx]);
+                        DEBUG(" [%d] 0x%x-",tmpIdx, pBackBuf[tmpIdx]);
 						
                     }
-                    printf("\r\n");
-                    printf("GPRS_SendData_rsp done\r\n");
+                    DEBUG("\r\n");
+                    DEBUG("GPRS_SendData_rsp done\r\n");
                 }
             }
-			//printf("%d retFlag = %d len = %d\n\n", i, retFlag, len);
+			//DEBUG("%d retFlag = %d len = %d\n\n", i, retFlag, len);
 #endif
 			if (len > 0 && retFlag == USART_ENPROCESS)
             {
@@ -1925,11 +1925,11 @@ unsigned char GPRS_ReceiveData(char *pString)
         len = USART_GSM_BUFSIZE_RECEIVE;
         delay_10ms(20);
 
-        //printf("GSM_SendAT before usart_readbuffer len %d\n", len);
+        //DEBUG("GSM_SendAT before usart_readbuffer len %d\n", len);
 
         retFlag =
                 usart_readbuffer(STM32_SIM908_GSM_COM, receiveBuf, &len);
-        //printf("GSM_SendAT after usart_readbuffer len %d\n", len);
+        //DEBUG("GSM_SendAT after usart_readbuffer len %d\n", len);
 
 #ifdef DBG_ENABLE_MACRO
         {
@@ -1938,24 +1938,24 @@ unsigned char GPRS_ReceiveData(char *pString)
 
             if (len > 0 && retFlag == USART_ENPROCESS)
             {
-                printf("GPRS_ReceiveData recv\r\n");
+                DEBUG("GPRS_ReceiveData recv\r\n");
                 for (tmpIdx = 0; tmpIdx < len; tmpIdx ++)
                 {
-                    //printf("%d-%c\r\n", tmpIdx, pBackBuf[tmpIdx]);
-                    printf("%c",receiveBuf[tmpIdx]);
+                    //DEBUG("%d-%c\r\n", tmpIdx, pBackBuf[tmpIdx]);
+                    DEBUG("%c",receiveBuf[tmpIdx]);
 					
                 }
-                printf("\r\n");
-                printf("GPRS_ReceiveData done\r\n");
+                DEBUG("\r\n");
+                DEBUG("GPRS_ReceiveData done\r\n");
             }
         }
-		printf("%d retFlag = %d len = %d\n\n", i, retFlag, len);
+		DEBUG("%d retFlag = %d len = %d\n\n", i, retFlag, len);
 
 		if (len > 0 && retFlag == USART_ENPROCESS)
         {
             if (NULL != strstr_len(pReceiveBuf, pString, len))
             {
-				printf("Receive New Message.\n");
+				DEBUG("Receive New Message.\n");
                 break;
             }
         }
@@ -2248,23 +2248,23 @@ void GSM_str_test(void)
     char *retPtr;
 
     retPtr = strstr_len(str, "2", 1);
-    printf("GSM_str_test %d, %d, %d\n", retPtr-str, retPtr, str);
+    DEBUG("GSM_str_test %d, %d, %d\n", retPtr-str, retPtr, str);
     retPtr = strstr_len(str, "2", 30);
-    printf("GSM_str_test %d\n", retPtr-str);
+    DEBUG("GSM_str_test %d\n", retPtr-str);
     retPtr = strstr_len(str, "23456", 30);
-    printf("GSM_str_test %d\n", retPtr-str);
+    DEBUG("GSM_str_test %d\n", retPtr-str);
     retPtr = strstr_len(str, str, 30);
-    printf("GSM_str_test %d\n", retPtr-str);
+    DEBUG("GSM_str_test %d\n", retPtr-str);
 
 
     retPtr = strnchr_len(str, '1', 1, 30);
-    printf("GSM_str_test %d\n", retPtr-str);
+    DEBUG("GSM_str_test %d\n", retPtr-str);
     retPtr = strnchr_len(str, '1', 2, 30);
-    printf("GSM_str_test %d\n", retPtr-str);
+    DEBUG("GSM_str_test %d\n", retPtr-str);
     retPtr = strnchr_len(str, '1', 3, 30);
-    printf("GSM_str_test %d\n", retPtr-str);
+    DEBUG("GSM_str_test %d\n", retPtr-str);
     retPtr = strnchr_len(str, '1', 4, 30);
-    printf("GSM_str_test %d\n", retPtr-str);
+    DEBUG("GSM_str_test %d\n", retPtr-str);
 }
 
 s8 Test_TelNumber[12]="15306568880\0";
@@ -2313,7 +2313,7 @@ void GSM_test_once(void)
 	{
     	if(USART_FAIL == GPRS_SendData(str, 17))
     	{
-			printf("GPRS_SendData Fail\n");
+			DEBUG("GPRS_SendData Fail\n");
     	}
 		delay_10ms(1000);
 	}
@@ -2335,24 +2335,24 @@ void GSM_test(void)
 	
 	for(i = 0; i < 15; i++)
 	{
-		printf("0x%x - %c;", imeibuf[i],imeibuf[i]);
+		DEBUG("0x%x - %c;", imeibuf[i],imeibuf[i]);
 	}
-	printf("\n");
+	DEBUG("\n");
 	
 	while(USART_SUCESS != GSM_QuerySignal(&signal));
-	printf("signal = %d\n", signal);
+	DEBUG("signal = %d\n", signal);
 
 	while(USART_SUCESS != GSM_QueryBattery(&battery));
-	printf("power = %d;status=%d voltage[0]=0x%x [1] = 0x%x\n", battery.BatPower,battery.BatStatus, battery.BatVoltage.s[0], battery.BatVoltage.s[1]);
+	DEBUG("power = %d;status=%d voltage[0]=0x%x [1] = 0x%x\n", battery.BatPower,battery.BatStatus, battery.BatVoltage.s[0], battery.BatVoltage.s[1]);
 
 // cimi
 	
 	while (USART_SUCESS != GSM_QueryImsi(&imsi));
-	printf("mcc[0] = 0x%x, mcc[1] = 0x%x; mnc[0]=0x%x,mnc[1]=0x%x\n", imsi.Mcc[0],imsi.Mcc[1],imsi.Mnc[0],imsi.Mnc[1]);
+	DEBUG("mcc[0] = 0x%x, mcc[1] = 0x%x; mnc[0]=0x%x,mnc[1]=0x%x\n", imsi.Mcc[0],imsi.Mcc[1],imsi.Mnc[0],imsi.Mnc[1]);
 
 
 	//while(USART_SUCESS != GSM_QueryCreg(&creg));
-	//printf("n = %d; status=%d lac[0] = 0x%x, lac[1] = 0x%x ci[0] = 0x%x ci[1] = 0x%x\n", creg.n, creg.Stat, creg.Lac[0], creg.Lac[1], creg.Ci[0], creg.Ci[1]);
+	//DEBUG("n = %d; status=%d lac[0] = 0x%x, lac[1] = 0x%x ci[0] = 0x%x ci[1] = 0x%x\n", creg.n, creg.Stat, creg.Lac[0], creg.Lac[1], creg.Ci[0], creg.Ci[1]);
     //GSM_creg();
 	//GSM_cgatt();
     //GSM_cstt();

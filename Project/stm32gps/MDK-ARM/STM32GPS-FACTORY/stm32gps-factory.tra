@@ -35,7 +35,7 @@
 ### ADS-LD Output File: '.\STM32GPS-FACTORY\stm32gps-factory.axf'
 ### ADS-LD Command File: '.\STM32GPS-FACTORY\stm32gps-factory.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile '.\STM32GPS-FACTORY\stm32gps-factory.lnp', Handle=0x000009CC
+### Creating CmdFile '.\STM32GPS-FACTORY\stm32gps-factory.lnp', Handle=0x00000B94
 ### Writing '.lnp' file
 ### ADS-LD Command file '.\STM32GPS-FACTORY\stm32gps-factory.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.

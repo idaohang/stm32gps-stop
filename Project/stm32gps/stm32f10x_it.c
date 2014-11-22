@@ -294,8 +294,6 @@ void EXTI15_10_IRQHandler(void)
   { 
     /* Clear the Key Button EXTI line pending bit */  
     EXTI_ClearITPendingBit(KEY_BUTTON_EXTI_LINE);
-
-    printf("in button15 interrupt handler\n");
   }
 }
 
