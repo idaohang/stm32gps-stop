@@ -1,0 +1,336 @@
+Build target 'Release'
+compiling main.c...
+..\main.c(286): warning:  #174-D: expression has no effect
+..\main.c(475): warning:  #174-D: expression has no effect
+..\main.c(475): warning:  #174-D: expression has no effect
+..\main.c(482): warning:  #174-D: expression has no effect
+..\main.c(482): warning:  #174-D: expression has no effect
+..\main.c(486): warning:  #174-D: expression has no effect
+..\main.c(536): warning:  #174-D: expression has no effect
+..\main.c(542): warning:  #174-D: expression has no effect
+..\main.c(549): warning:  #174-D: expression has no effect
+..\main.c(611): warning:  #174-D: expression has no effect
+..\main.c(611): warning:  #174-D: expression has no effect
+..\main.c(617): warning:  #174-D: expression has no effect
+..\main.c(617): warning:  #174-D: expression has no effect
+..\main.c(627): warning:  #174-D: expression has no effect
+..\main.c(627): warning:  #174-D: expression has no effect
+..\main.c(627): warning:  #174-D: expression has no effect
+..\main.c(637): warning:  #174-D: expression has no effect
+..\main.c(637): warning:  #174-D: expression has no effect
+..\main.c(676): warning:  #174-D: expression has no effect
+..\main.c(682): warning:  #174-D: expression has no effect
+..\main.c(682): warning:  #174-D: expression has no effect
+..\main.c(687): warning:  #174-D: expression has no effect
+..\main.c(687): warning:  #174-D: expression has no effect
+..\main.c(697): warning:  #128-D: loop is not reachable from preceding code
+..\main.c(748): warning:  #174-D: expression has no effect
+..\main.c(792): warning:  #174-D: expression has no effect
+..\main.c(951): warning:  #174-D: expression has no effect
+..\main.c(1015): warning:  #174-D: expression has no effect
+..\main.c(1113): warning:  #174-D: expression has no effect
+compiling stm32f10x_it.c...
+compiling stm32gps_config.c...
+compiling gpio.c...
+compiling misc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_wwdg.c...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling stm32gps_board.c...
+..\..\..\Utilities\STM32_GPS\STM32_GPS_BOARD_VB/stm32_gps_board.c(345): warning:  #550-D: variable "data" was set but never used
+assembling startup_stm32f10x_hd.s...
+compiling usart.c...
+compiling GPS_App.c...
+..\..\..\Utilities\SIM28M\GPS_App.c(70): warning:  #550-D: variable "valid" was set but never used
+..\..\..\Utilities\SIM28M\GPS_App.c(305): warning:  #177-D: variable "i" was declared but never referenced
+..\..\..\Utilities\SIM28M\GPS_App.c(307): warning:  #177-D: variable "valid" was declared but never referenced
+compiling GSM_App.c...
+..\..\..\Utilities\SIM800L\GSM_App.c(877): warning:  #177-D: variable "pfeed" was declared but never referenced
+..\..\..\Utilities\SIM800L\GSM_App.c(1624): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(1628): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(1632): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(1652): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\..\..\Utilities\SIM800L\GSM_App.c(1616): warning:  #177-D: variable "i" was declared but never referenced
+..\..\..\Utilities\SIM800L\GSM_App.c(1912): warning:  #550-D: variable "retFlag" was set but never used
+..\..\..\Utilities\SIM800L\GSM_App.c(1913): warning:  #177-D: variable "pReceiveBuf" was declared but never referenced
+..\..\..\Utilities\SIM800L\GSM_App.c(2012): warning:  #177-D: variable "pcmdbuf" was declared but never referenced
+..\..\..\Utilities\SIM800L\GSM_App.c(2243): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2243): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2243): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2243): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2245): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2245): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2247): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2247): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2249): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2249): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2253): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2253): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2255): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2255): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2257): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2257): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2259): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2259): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2308): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2330): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2330): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2330): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2332): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2335): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2335): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2338): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2338): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2338): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2338): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2338): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2343): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2343): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2343): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2343): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2343): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2324): warning:  #177-D: variable "creg" was declared but never referenced
+linking...
+Program Size: Code=28968 RO-data=1212 RW-data=292 ZI-data=8708  
+FromELF: creating hex file...
+".\STM32GPS-REALSE\stm32gps-realse.axf" - 0 Error(s), 78 Warning(s).
+Clean started: Project: 'stm32gps'
+   deleting intermediate output files for target 'Debug'
+   deleting intermediate output files for target 'Release'
+   deleting intermediate output files for target 'Factory'
+Build target 'Release'
+compiling main.c...
+..\main.c(286): warning:  #174-D: expression has no effect
+..\main.c(475): warning:  #174-D: expression has no effect
+..\main.c(475): warning:  #174-D: expression has no effect
+..\main.c(482): warning:  #174-D: expression has no effect
+..\main.c(482): warning:  #174-D: expression has no effect
+..\main.c(486): warning:  #174-D: expression has no effect
+..\main.c(536): warning:  #174-D: expression has no effect
+..\main.c(542): warning:  #174-D: expression has no effect
+..\main.c(549): warning:  #174-D: expression has no effect
+..\main.c(611): warning:  #174-D: expression has no effect
+..\main.c(611): warning:  #174-D: expression has no effect
+..\main.c(617): warning:  #174-D: expression has no effect
+..\main.c(617): warning:  #174-D: expression has no effect
+..\main.c(627): warning:  #174-D: expression has no effect
+..\main.c(627): warning:  #174-D: expression has no effect
+..\main.c(627): warning:  #174-D: expression has no effect
+..\main.c(637): warning:  #174-D: expression has no effect
+..\main.c(637): warning:  #174-D: expression has no effect
+..\main.c(676): warning:  #174-D: expression has no effect
+..\main.c(682): warning:  #174-D: expression has no effect
+..\main.c(682): warning:  #174-D: expression has no effect
+..\main.c(687): warning:  #174-D: expression has no effect
+..\main.c(687): warning:  #174-D: expression has no effect
+..\main.c(697): warning:  #128-D: loop is not reachable from preceding code
+..\main.c(748): warning:  #174-D: expression has no effect
+..\main.c(792): warning:  #174-D: expression has no effect
+..\main.c(951): warning:  #174-D: expression has no effect
+..\main.c(1015): warning:  #174-D: expression has no effect
+..\main.c(1113): warning:  #174-D: expression has no effect
+Build target 'Release'
+compiling main.c...
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling stm32f10x_it.c...
+compiling stm32gps_config.c...
+Project build/rebuild aborted.
+Target not created
+Clean started: Project: 'stm32gps'
+   deleting intermediate output files for target 'Debug'
+   deleting intermediate output files for target 'Release'
+   deleting intermediate output files for target 'Factory'
+Project build/rebuild aborted.
+Target not created
+Build target 'Release'
+compiling main.c...
+..\main.c(286): warning:  #174-D: expression has no effect
+..\main.c(475): warning:  #174-D: expression has no effect
+..\main.c(475): warning:  #174-D: expression has no effect
+..\main.c(482): warning:  #174-D: expression has no effect
+..\main.c(482): warning:  #174-D: expression has no effect
+..\main.c(486): warning:  #174-D: expression has no effect
+..\main.c(536): warning:  #174-D: expression has no effect
+..\main.c(542): warning:  #174-D: expression has no effect
+..\main.c(549): warning:  #174-D: expression has no effect
+..\main.c(611): warning:  #174-D: expression has no effect
+..\main.c(611): warning:  #174-D: expression has no effect
+..\main.c(617): warning:  #174-D: expression has no effect
+..\main.c(617): warning:  #174-D: expression has no effect
+..\main.c(627): warning:  #174-D: expression has no effect
+..\main.c(627): warning:  #174-D: expression has no effect
+..\main.c(627): warning:  #174-D: expression has no effect
+..\main.c(637): warning:  #174-D: expression has no effect
+..\main.c(637): warning:  #174-D: expression has no effect
+..\main.c(676): warning:  #174-D: expression has no effect
+..\main.c(682): warning:  #174-D: expression has no effect
+..\main.c(682): warning:  #174-D: expression has no effect
+..\main.c(687): warning:  #174-D: expression has no effect
+..\main.c(687): warning:  #174-D: expression has no effect
+..\main.c(697): warning:  #128-D: loop is not reachable from preceding code
+..\main.c(748): warning:  #174-D: expression has no effect
+..\main.c(792): warning:  #174-D: expression has no effect
+..\main.c(951): warning:  #174-D: expression has no effect
+..\main.c(1015): warning:  #174-D: expression has no effect
+..\main.c(1113): warning:  #174-D: expression has no effect
+compiling stm32f10x_it.c...
+compiling stm32gps_config.c...
+compiling gpio.c...
+compiling misc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_wwdg.c...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling stm32gps_board.c...
+..\..\..\Utilities\STM32_GPS\STM32_GPS_BOARD_VB/stm32_gps_board.c(345): warning:  #550-D: variable "data" was set but never used
+assembling startup_stm32f10x_hd.s...
+compiling usart.c...
+compiling GPS_App.c...
+..\..\..\Utilities\SIM28M\GPS_App.c(70): warning:  #550-D: variable "valid" was set but never used
+..\..\..\Utilities\SIM28M\GPS_App.c(305): warning:  #177-D: variable "i" was declared but never referenced
+..\..\..\Utilities\SIM28M\GPS_App.c(307): warning:  #177-D: variable "valid" was declared but never referenced
+compiling GSM_App.c...
+..\..\..\Utilities\SIM800L\GSM_App.c(877): warning:  #177-D: variable "pfeed" was declared but never referenced
+..\..\..\Utilities\SIM800L\GSM_App.c(1624): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(1628): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(1632): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(1652): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\..\..\Utilities\SIM800L\GSM_App.c(1616): warning:  #177-D: variable "i" was declared but never referenced
+..\..\..\Utilities\SIM800L\GSM_App.c(1912): warning:  #550-D: variable "retFlag" was set but never used
+..\..\..\Utilities\SIM800L\GSM_App.c(1913): warning:  #177-D: variable "pReceiveBuf" was declared but never referenced
+..\..\..\Utilities\SIM800L\GSM_App.c(2012): warning:  #177-D: variable "pcmdbuf" was declared but never referenced
+..\..\..\Utilities\SIM800L\GSM_App.c(2243): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2243): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2243): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2243): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2245): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2245): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2247): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2247): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2249): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2249): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2253): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2253): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2255): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2255): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2257): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2257): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2259): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2259): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2308): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2330): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2330): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2330): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2332): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2335): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2335): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2338): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2338): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2338): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2338): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2338): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2343): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2343): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2343): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2343): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2343): warning:  #174-D: expression has no effect
+..\..\..\Utilities\SIM800L\GSM_App.c(2324): warning:  #177-D: variable "creg" was declared but never referenced
+linking...
+Program Size: Code=28968 RO-data=1212 RW-data=292 ZI-data=8708  
+FromELF: creating hex file...
+".\STM32GPS-REALSE\stm32gps-realse.axf" - 0 Error(s), 78 Warning(s).
+Build target 'Release'
+compiling main.c...
+..\main.c(287): warning:  #174-D: expression has no effect
+..\main.c(476): warning:  #174-D: expression has no effect
+..\main.c(476): warning:  #174-D: expression has no effect
+..\main.c(483): warning:  #174-D: expression has no effect
+..\main.c(483): warning:  #174-D: expression has no effect
+..\main.c(487): warning:  #174-D: expression has no effect
+..\main.c(537): warning:  #174-D: expression has no effect
+..\main.c(543): warning:  #174-D: expression has no effect
+..\main.c(550): warning:  #174-D: expression has no effect
+..\main.c(612): warning:  #174-D: expression has no effect
+..\main.c(612): warning:  #174-D: expression has no effect
+..\main.c(618): warning:  #174-D: expression has no effect
+..\main.c(618): warning:  #174-D: expression has no effect
+..\main.c(628): warning:  #174-D: expression has no effect
+..\main.c(628): warning:  #174-D: expression has no effect
+..\main.c(628): warning:  #174-D: expression has no effect
+..\main.c(638): warning:  #174-D: expression has no effect
+..\main.c(638): warning:  #174-D: expression has no effect
+..\main.c(677): warning:  #174-D: expression has no effect
+..\main.c(683): warning:  #174-D: expression has no effect
+..\main.c(683): warning:  #174-D: expression has no effect
+..\main.c(688): warning:  #174-D: expression has no effect
+..\main.c(688): warning:  #174-D: expression has no effect
+..\main.c(698): warning:  #128-D: loop is not reachable from preceding code
+..\main.c(749): warning:  #174-D: expression has no effect
+..\main.c(793): warning:  #174-D: expression has no effect
+..\main.c(952): warning:  #174-D: expression has no effect
+..\main.c(1016): warning:  #174-D: expression has no effect
+..\main.c(1114): warning:  #174-D: expression has no effect
+linking...
+Program Size: Code=28972 RO-data=1212 RW-data=292 ZI-data=8708  
+FromELF: creating hex file...
+".\STM32GPS-REALSE\stm32gps-realse.axf" - 0 Error(s), 29 Warning(s).
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.384V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
