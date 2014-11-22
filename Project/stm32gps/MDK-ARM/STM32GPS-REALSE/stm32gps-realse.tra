@@ -35,7 +35,7 @@
 ### ADS-LD Output File: '.\STM32GPS-REALSE\stm32gps-realse.axf'
 ### ADS-LD Command File: '.\STM32GPS-REALSE\stm32gps-realse.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile '.\STM32GPS-REALSE\stm32gps-realse.lnp', Handle=0x00000A74
+### Creating CmdFile '.\STM32GPS-REALSE\stm32gps-realse.lnp', Handle=0x00000244
 ### Writing '.lnp' file
 ### ADS-LD Command file '.\STM32GPS-REALSE\stm32gps-realse.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.
