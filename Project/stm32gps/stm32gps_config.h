@@ -37,10 +37,12 @@
 #define STICK_ON_SEC      300  // 3sec stick on times
 
 // RTC Alarm Second [1 - 2^32]
-#define SLEEP_NORMAL_SEC 120 // 2min // 86400 // 24hour SHOULD SET 86400 = 24hour
+#define SLEEP_NOTLOC_SCALE  5  // GPS Not location sleep time scale 
+#define SLEEP_ALARM_SEC    60   // 1min
+#define SLEEP_NORMAL_SEC 	600 // 10min	// 86400 // 24hour SHOULD SET 86400 = 24hour
 #define STOP_GPS_SEC     10  // GPS STOP mode seconds
 
-#define SLEEP_TIME_MIN    120     // 2min 最小睡眠间隔
+#define SLEEP_TIME_MIN    60     // 1min 最小睡眠间隔
 #define SLEEP_TIME_MAX   172800  // 48hour 最大睡眠间隔
 
 // #define GSM_SERVER_IP   "121.40.200.84"  	// server ip address

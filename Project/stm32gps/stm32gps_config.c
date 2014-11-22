@@ -435,6 +435,7 @@ void stm32gps_com_debug_cfg(void)
     STM_EVAL_COMInit(COM3, &USART_InitStructure);
 }
 
+#ifdef DBG_ENABLE_MACRO
 #ifdef __GNUC__
 /* With GCC/RAISONANCE, small printf (option LD Linker->Libraries->Small printf
  set to 'Yes') calls __io_putchar() */
@@ -460,6 +461,8 @@ PUTCHAR_PROTOTYPE
 
     return ch;
 }
+
+#endif  // DBG_ENABLE_MACRO
 
 #ifdef  USE_FULL_ASSERT
 

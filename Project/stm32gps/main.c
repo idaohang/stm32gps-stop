@@ -68,6 +68,7 @@ uint16_t g_sequenceNum;  // GPRS packet's sequence number
 uint16_t g_successNum;   // GPRS Send Success number
 
 uint8_t g_gpsStatus;    // GPS status 0x55 - error; 0xaa - ok
+uint8_t g_gpsLocationStatus;  // GPS location status 0x55 - error; 0xaa - ok
 
 uint32_t g_setSleepSec;  // Server setting sleep seconds
 
@@ -130,6 +131,7 @@ void InitVariables(void)
     g_sequenceNum = 1;
     g_successNum = 0;
     g_gpsStatus = 0x55;
+	g_gpsLocationStatus = 0x55;
     g_setSleepSec = SLEEP_NORMAL_SEC;
     g_alarmFlag = RESET;
 	g_alarmPacketFlag = RESET;
@@ -295,6 +297,7 @@ int main(void)
                 if( GPS_SUCCESS == rst)
                 {
                     g_gpsStatus = 0xAA;
+					g_gpsLocationStatus = 0xAA;
 #ifdef DBG_ENABLE_MACRO
                     STM_EVAL_LEDOff(LED1);
                     DEBUG("GPS Recv Success!\n");
@@ -304,6 +307,7 @@ int main(void)
                 else if(GPS_INVALID == rst)
                 {
                     g_gpsStatus = 0xAA;
+					g_gpsLocationStatus = 0x55;
 #ifdef DBG_ENABLE_MACRO
                     STM_EVAL_LEDOn(LED1);
                     DEBUG("GPS Recv Invalid\n");
@@ -312,6 +316,7 @@ int main(void)
                 else
                 {
                     g_gpsStatus = 0x55;
+					g_gpsLocationStatus = 0x55;
 #ifdef DBG_ENABLE_MACRO
                     STM_EVAL_LEDOn(LED1);
                     DEBUG("GPS Recv Error\n");
@@ -467,13 +472,14 @@ int main(void)
 		                                      + ((*(pfeed + 8)) << 16)
 		                                      + ((*(pfeed + 9)) << 8)
 		                                      + (*(pfeed + 10)));
-						DEBUG("g_setSleepSec = %d\n", sleepSec);
+						DEBUG("sleepSec = %d\n", sleepSec);
 		                // Check sleep time setting value
 		                if((sleepSec > SLEEP_TIME_MIN) && (sleepSec < SLEEP_TIME_MAX))
 		                {
 		                    g_setSleepSec = sleepSec;
 							
 		                }
+						DEBUG("g_setSleepSec = %d\n", g_setSleepSec);
 		            }
 		            else
 		            {
@@ -520,25 +526,31 @@ int main(void)
                 /////////////////////////////////////////////////////////////////
                 // Receive GPS Data and Analyze
                 /////////////////////////////////////////////////////////////////
-                rst = GPSInfoAnalyze(&rmc);
-                if( GPS_SUCCESS == rst)
+                if(0xAA != g_gpsLocationStatus)
                 {
-                    g_gpsStatus = 0xAA;
-                    DEBUG("GPS Recv Success!\n");
-                }
-                else if(GPS_INVALID == rst)
-                {
-                    g_gpsStatus = 0xAA;
-                    DEBUG("GPS Recv Invalid\n");
-                }
-                else
-                {
-                    g_gpsStatus = 0x55;
-                    memset(&rmc, sizeof(rmc), 0);
-                    DEBUG("GPS Recv Error\n");
-                }
-
-                ParseGPSInfo(rmc, &g_gpsData);
+	                rst = GPSInfoAnalyze(&rmc);
+	                if( GPS_SUCCESS == rst)
+	                {
+	                    g_gpsStatus = 0xAA;
+						g_gpsLocationStatus = 0xAA;
+	                    DEBUG("GPS Recv Success!\n");
+	                }
+	                else if(GPS_INVALID == rst)
+	                {
+	                    g_gpsStatus = 0xAA;
+						g_gpsLocationStatus = 0x55;
+	                    DEBUG("GPS Recv Invalid\n");
+	                }
+	                else
+	                {
+	                    g_gpsStatus = 0x55;
+						g_gpsLocationStatus = 0x55;
+	                    memset(&rmc, sizeof(rmc), 0);
+	                    DEBUG("GPS Recv Error\n");
+	                }
+	                
+	                ParseGPSInfo(rmc, &g_gpsData);
+				}
                 /////////////////////////////////////////////////////////////////
                 // Get GSM related Data and Analyze, Package GPS Message
                 /////////////////////////////////////////////////////////////////
@@ -612,6 +624,7 @@ int main(void)
                 // if send ok then into sleep
                 if(g_successNum > GSM_SUCCESS_TIMES)
                 {
+					DEBUG("send_ok alarmflag = %d; g_alarmPacketFlag = %d\n", g_alarmFlag, g_alarmPacketFlag);
                     // Toggle alarm flag
                     if((SET == g_alarmFlag) && (SET == g_alarmPacketFlag))
                     {
@@ -655,8 +668,27 @@ int main(void)
         RTC_ClearFlag(RTC_FLAG_SEC);
         while(RTC_GetFlagStatus(RTC_FLAG_SEC) == RESET);
 
-
-        RTC_SetAlarm(RTC_GetCounter() + g_setSleepSec);
+		// NOT Stick and Alarm Flag Valid, Then Sleep Less
+		if(((uint32_t)Bit_SET == STM_EVAL_PBGetState(BUTTON_KEY))
+                        && (SET == g_alarmFlag))
+		{
+			RTC_SetAlarm(RTC_GetCounter() + SLEEP_ALARM_SEC);
+			DEBUG("alarmmode sleep\n");
+		}
+		else
+		{
+			// If GPS Located, then sleep normally
+			if(0xAA == g_gpsLocationStatus)
+			{
+	        	RTC_SetAlarm(RTC_GetCounter() + g_setSleepSec);
+				DEBUG("normalmode sleep %d\n", g_setSleepSec);
+			}
+			else
+			{
+				RTC_SetAlarm(RTC_GetCounter() + (g_setSleepSec / SLEEP_NOTLOC_SCALE));
+				DEBUG("notlocatemode sleep %d\n", (g_setSleepSec / SLEEP_NOTLOC_SCALE));
+			}
+		}
 
         /* Wait until last write operation on RTC registers has finished */
         RTC_WaitForLastTask();
