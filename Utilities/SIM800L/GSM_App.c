@@ -1052,23 +1052,14 @@ void GSM_CheckNetworkReg(void)
     char *pRecvBuf = NULL;
     uint32_t recvLen = 0;
     char *pStr;
-	uint32_t errNum = 0;
+	uint32_t num = 0;
 
 	cmdLen = strlen(AT_CREG);
-    while (1)
+    while (num < 11)
     {
-        if (USART_FAIL == GSM_SendAT_rsp((char *)AT_CREG, (char *) "CREG",
+        if (USART_SUCESS == GSM_SendAT_rsp((char *)AT_CREG, (char *) "CREG",
                 cmdLen, &pRecvBuf, &recvLen))
         {
-			errNum++;
-	        
-			if(errNum > 12)
-			{
-				break;
-			}
-        }
-		else
-		{
 			pStr = strnchr_len(pRecvBuf, ',', 1, recvLen);
 	        if (pStr != NULL)
 	        {
@@ -1079,7 +1070,8 @@ void GSM_CheckNetworkReg(void)
 	            }
 	        }
 		}
-
+		
+		num++;
 		delay_10ms(20);
     }
 }

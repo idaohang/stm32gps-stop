@@ -270,6 +270,7 @@ int main(void)
 		//MX_GPIO_Init();
 	    //GPSPowerOff();
 	    //GSM_PowerOff();
+	    gpsRecvTimes = 0;
 	    delay_10ms(STICK_ON_SEC);
 
         // If Stick On Car or sth
@@ -324,7 +325,7 @@ int main(void)
                 }
 
                 /////////////////////////////////////////////////////////////////
-                // If GPS Receive Times Over then break, ~30sec
+                // If GPS Receive Times Over then break, ~3min
                 /////////////////////////////////////////////////////////////////
                 gpsRecvTimes++;
                 if(gpsRecvTimes > GPS_RETERY_TIMES)
@@ -677,17 +678,9 @@ int main(void)
 		}
 		else
 		{
-			// If GPS Located, then sleep normally
-			if(0xAA == g_gpsLocationStatus)
-			{
-	        	RTC_SetAlarm(RTC_GetCounter() + g_setSleepSec);
-				DEBUG("normalmode sleep %d\n", g_setSleepSec);
-			}
-			else
-			{
-				RTC_SetAlarm(RTC_GetCounter() + (g_setSleepSec / SLEEP_NOTLOC_SCALE));
-				DEBUG("notlocatemode sleep %d\n", (g_setSleepSec / SLEEP_NOTLOC_SCALE));
-			}
+
+        	RTC_SetAlarm(RTC_GetCounter() + g_setSleepSec);
+			DEBUG("normalmode sleep %d\n", g_setSleepSec);
 		}
 
         /* Wait until last write operation on RTC registers has finished */

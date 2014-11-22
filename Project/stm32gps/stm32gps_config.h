@@ -31,7 +31,13 @@
 #define SYS_TICK_PER_SEC 100u
 
 #define GSM_SUCCESS_TIMES   0  // GSM 成功发送次数 = value+1
-#define GPS_RETERY_TIMES    4  // GPS 重试次数 
+
+#ifdef FACTORY_ENABLE_MACRO
+#define GPS_RETERY_TIMES    1  // GPS 重试次数 
+#else
+#define GPS_RETERY_TIMES    18  // GPS 重试次数 
+#endif
+
 #define GSM_RETERY_TIMES    4 // GSM 错误重发次数
 
 #define STICK_ON_SEC      300  // 3sec stick on times
@@ -39,8 +45,8 @@
 // RTC Alarm Second [1 - 2^32]
 #define SLEEP_NOTLOC_SCALE  5  // GPS Not location sleep time scale 
 #define SLEEP_ALARM_SEC    60   // 1min
-#define SLEEP_NORMAL_SEC 	600 // 10min	// 86400 // 24hour SHOULD SET 86400 = 24hour
-#define STOP_GPS_SEC     10  // GPS STOP mode seconds
+#define SLEEP_NORMAL_SEC 	86400 // 24hour SHOULD SET 86400 = 24hour
+#define STOP_GPS_SEC     	10  // GPS STOP mode seconds
 
 #define SLEEP_TIME_MIN    60     // 1min 最小睡眠间隔
 #define SLEEP_TIME_MAX   172800  // 48hour 最大睡眠间隔
@@ -64,7 +70,7 @@
 
 #define TIM2_PRESCALER_TIMER 65535 // TIM2 Prescaler
 #define TIM2_PRESCALER_HZ 1000    // TIM2 HZ, Not used
-#define TIM2_PERIOD_TIMER  65534  // 3min  根据需要可修改该定时器的值
+#define TIM2_PERIOD_TIMER  65534  // 59s  根据需要可修改该定时器的值
 
 #define TIM4_PRESCALER_TIMER 65535
 #define TIM4_PRESCALER_HZ 1000
