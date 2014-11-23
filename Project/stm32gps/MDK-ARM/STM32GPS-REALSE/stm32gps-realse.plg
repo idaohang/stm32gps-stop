@@ -4832,3 +4832,3373 @@ JTAG speed: 2000 kHz
 Erase Done.
 Programming Done.
 Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.461V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.461V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.481V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+**JLink Warning: Could not read memory location 0x20000000 when trying to set soft RAM BP
+Cannot setup Breakpoint at Address
+**JLink Warning: Could not read memory location 0x20000000 when trying to set soft RAM BP
+Cannot setup Breakpoint at Address
+Verify Failed!
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: STM32Fxxxx: Cannot attach to CPU. Trying connect under reset.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.435V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.481V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.468V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.468V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.481V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.481V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: STM32Fxxxx: Cannot attach to CPU. Trying connect under reset.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+***JLink Error: Could not power up debug port: Control/Status register reads 1BA01477
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.487V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.481V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.455V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+***JLink Error: Can not read register 15 (R15) while CPU is running
+**JLink Warning: CPU could not be halted
+***JLink Error: Could not read memory location 0x20000000 when trying to clear soft RAM BP
+Could not start CPU core. (ErrorCode: -1)
+Contents missmatch at: 08000000H  (Flash=AAH  Required=28H) !
+Contents missmatch at: 08000001H  (Flash=AAH  Required=23H) !
+Contents missmatch at: 08000002H  (Flash=AAH  Required=00H) !
+Contents missmatch at: 08000003H  (Flash=AAH  Required=20H) !
+Contents missmatch at: 08000004H  (Flash=AAH  Required=5DH) !
+Contents missmatch at: 08000005H  (Flash=AAH  Required=3AH) !
+Contents missmatch at: 08000006H  (Flash=AAH  Required=00H) !
+Contents missmatch at: 08000007H  (Flash=AAH  Required=08H) !
+Contents missmatch at: 08000008H  (Flash=AAH  Required=CDH) !
+Contents missmatch at: 08000009H  (Flash=AAH  Required=0DH) !
+Contents missmatch at: 0800000AH  (Flash=AAH  Required=00H) !
+Contents missmatch at: 0800000BH  (Flash=AAH  Required=08H) !
+Contents missmatch at: 0800000CH  (Flash=AAH  Required=CFH) !
+Contents missmatch at: 0800000DH  (Flash=AAH  Required=0DH) !
+Contents missmatch at: 0800000EH  (Flash=AAH  Required=00H) !
+Contents missmatch at: 0800000FH  (Flash=AAH  Required=08H) !
+Contents missmatch at: 08000010H  (Flash=AAH  Required=D3H) !
+Contents missmatch at: 08000011H  (Flash=AAH  Required=0DH) !
+Contents missmatch at: 08000012H  (Flash=AAH  Required=00H) !
+Contents missmatch at: 08000013H  (Flash=AAH  Required=08H) !
+Contents missmatch at: 08000014H  (Flash=AAH  Required=D7H) !
+Contents missmatch at: 08000015H  (Flash=AAH  Required=0DH) !
+Contents missmatch at: 08000016H  (Flash=AAH  Required=00H) !
+Contents missmatch at: 08000017H  (Flash=AAH  Required=08H) !
+Contents missmatch at: 08000018H  (Flash=AAH  Required=DBH) !
+Contents missmatch at: 08000019H  (Flash=AAH  Required=0DH) !
+Contents missmatch at: 0800001AH  (Flash=AAH  Required=00H) !
+Contents missmatch at: 0800001BH  (Flash=AAH  Required=08H) !
+Contents missmatch at: 0800001CH  (Flash=AAH  Required=00H) !
+Contents missmatch at: 0800001DH  (Flash=AAH  Required=00H) !
+Contents missmatch at: 0800001EH  (Flash=AAH  Required=00H) !
+Contents missmatch at: 0800001FH  (Flash=AAH  Required=00H) !
+Contents missmatch at: 08000020H  (Flash=AAH  Required=00H) !
+Contents missmatch at: 08000021H  (Flash=AAH  Required=00H) !
+Contents missmatch at: 08000022H  (Flash=AAH  Required=00H) !
+Contents missmatch at: 08000023H  (Flash=AAH  Required=00H) !
+Contents missmatch at: 08000024H  (Flash=AAH  Required=00H) !
+Contents missmatch at: 08000025H  (Flash=AAH  Required=00H) !
+Contents missmatch at: 08000026H  (Flash=AAH  Required=00H) !
+Contents missmatch at: 08000027H  (Flash=AAH  Required=00H) !
+Contents missmatch at: 08000028H  (Flash=AAH  Required=00H) !
+Contents missmatch at: 08000029H  (Flash=AAH  Required=00H) !
+Contents missmatch at: 0800002AH  (Flash=AAH  Required=00H) !
+Contents missmatch at: 0800002BH  (Flash=AAH  Required=00H) !
+Contents missmatch at: 0800002CH  (Flash=AAH  Required=DFH) !
+Contents missmatch at: 0800002DH  (Flash=AAH  Required=0DH) !
+Contents missmatch at: 0800002EH  (Flash=AAH  Required=00H) !
+Contents missmatch at: 0800002FH  (Flash=AAH  Required=08H) !
+Contents missmatch at: 08000030H  (Flash=AAH  Required=E1H) !
+Contents missmatch at: 08000031H  (Flash=AAH  Required=0DH) !
+Contents missmatch at: 08000032H  (Flash=AAH  Required=00H) !
+Contents missmatch at: 08000033H  (Flash=AAH  Required=08H) !
+Contents missmatch at: 08000034H  (Flash=AAH  Required=00H) !
+Contents missmatch at: 08000035H  (Flash=AAH  Required=00H) !
+Contents missmatch at: 08000036H  (Flash=AAH  Required=00H) !
+Contents missmatch at: 08000037H  (Flash=AAH  Required=00H) !
+Contents missmatch at: 08000038H  (Flash=AAH  Required=E3H) !
+Contents missmatch at: 08000039H  (Flash=AAH  Required=0DH) !
+Contents missmatch at: 0800003AH  (Flash=AAH  Required=00H) !
+Contents missmatch at: 0800003BH  (Flash=AAH  Required=08H) !
+Contents missmatch at: 0800003CH  (Flash=AAH  Required=07H) !
+Contents missmatch at: 0800003DH  (Flash=AAH  Required=0EH) !
+Contents missmatch at: 0800003EH  (Flash=AAH  Required=00H) !
+Contents missmatch at: 0800003FH  (Flash=AAH  Required=08H) !
+Contents missmatch at: 08000040H  (Flash=AAH  Required=77H) !
+Contents missmatch at: 08000041H  (Flash=AAH  Required=3AH) !
+Contents missmatch at: 08000042H  (Flash=AAH  Required=00H) !
+Contents missmatch at: 08000043H  (Flash=AAH  Required=08H) !
+Contents missmatch at: 08000044H  (Flash=AAH  Required=77H) !
+Contents missmatch at: 08000045H  (Flash=AAH  Required=3AH) !
+Contents missmatch at: 08000046H  (Flash=AAH  Required=00H) !
+Contents missmatch at: 08000047H  (Flash=AAH  Required=08H) !
+Contents missmatch at: 08000048H  (Flash=AAH  Required=77H) !
+Contents missmatch at: 08000049H  (Flash=AAH  Required=3AH) !
+Contents missmatch at: 0800004AH  (Flash=AAH  Required=00H) !
+Contents missmatch at: 0800004BH  (Flash=AAH  Required=08H) !
+Contents missmatch at: 0800004CH  (Flash=AAH  Required=A3H) !
+Contents missmatch at: 0800004DH  (Flash=AAH  Required=0EH) !
+Contents missmatch at: 0800004EH  (Flash=AAH  Required=00H) !
+Contents missmatch at: 0800004FH  (Flash=AAH  Required=08H) !
+Contents missmatch at: 08000050H  (Flash=AAH  Required=77H) !
+Contents missmatch at: 08000051H  (Flash=AAH  Required=3AH) !
+Contents missmatch at: 08000052H  (Flash=AAH  Required=00H) !
+Contents missmatch at: 08000053H  (Flash=AAH  Required=08H) !
+Contents missmatch at: 08000054H  (Flash=AAH  Required=77H) !
+Contents missmatch at: 08000055H  (Flash=AAH  Required=3AH) !
+Contents missmatch at: 08000056H  (Flash=AAH  Required=00H) !
+Contents missmatch at: 08000057H  (Flash=AAH  Required=08H) !
+Contents missmatch at: 08000058H  (Flash=AAH  Required=77H) !
+Contents missmatch at: 08000059H  (Flash=AAH  Required=3AH) !
+Contents missmatch at: 0800005AH  (Flash=AAH  Required=00H) !
+Contents missmatch at: 0800005BH  (Flash=AAH  Required=08H) !
+Contents missmatch at: 0800005CH  (Flash=AAH  Required=77H) !
+Contents missmatch at: 0800005DH  (Flash=AAH  Required=3AH) !
+Contents missmatch at: 0800005EH  (Flash=AAH  Required=00H) !
+Contents missmatch at: 0800005FH  (Flash=AAH  Required=08H) !
+Contents missmatch at: 08000060H  (Flash=AAH  Required=77H) !
+Contents missmatch at: 08000061H  (Flash=AAH  Required=3AH) !
+Contents missmatch at: 08000062H  (Flash=AAH  Required=00H) !
+Contents missmatch at: 08000063H  (Flash=AAH  Required=08H) !
+Too many errors to display !
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.442V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.474V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.423V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.474V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.474V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.474V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.481V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.474V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.474V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.429V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.474V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.481V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.468V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.474V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.468V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.474V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.461V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.474V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.468V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.442V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.423V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.481V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.455V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.468V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.455V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.455V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.442V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.474V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.468V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.487V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.468V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.442V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.474V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.481V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.429V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.468V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.461V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.468V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.429V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.461V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.442V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.481V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.455V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.429V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.481V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.481V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.474V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.468V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.468V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.435V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.468V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.474V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.468V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.481V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.474V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.468V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.468V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.474V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.468V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.474V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.461V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.468V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.468V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.455V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.461V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.442V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.435V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.455V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.448V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.474V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+Load "D:\\GitHub\\stm32gps-stop\\Project\\stm32gps\\MDK-ARM\\STM32GPS-REALSE\\stm32gps-realse.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\GitHub\stm32gps-stop\Project\stm32gps\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.90d, compiled Aug 29 2014 14:49:16
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.461V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.

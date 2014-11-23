@@ -73,7 +73,7 @@
       <OPTFL>
         <tvExp>1</tvExp>
         <tvExpOptDlg>0</tvExpOptDlg>
-        <IsCurrentTarget>1</IsCurrentTarget>
+        <IsCurrentTarget>0</IsCurrentTarget>
       </OPTFL>
       <CpuCode>255</CpuCode>
       <Books>
@@ -241,7 +241,7 @@
       <OPTFL>
         <tvExp>1</tvExp>
         <tvExpOptDlg>0</tvExpOptDlg>
-        <IsCurrentTarget>0</IsCurrentTarget>
+        <IsCurrentTarget>1</IsCurrentTarget>
       </OPTFL>
       <CpuCode>255</CpuCode>
       <Books>
@@ -526,7 +526,7 @@
 
   <Group>
     <GroupName>User</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <File>
@@ -535,10 +535,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>14</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>611</TopLine>
-      <CurrentLine>611</CurrentLine>
+      <TopLine>552</TopLine>
+      <CurrentLine>566</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -841,14 +841,14 @@
 
   <Group>
     <GroupName>STM32_GPS</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <File>
       <GroupNumber>4</GroupNumber>
       <FileNumber>22</FileNumber>
       <FileType>1</FileType>
-      <tvExp>0</tvExp>
+      <tvExp>1</tvExp>
       <Focus>0</Focus>
       <ColumnNumber>29</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -934,10 +934,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>21</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>63</TopLine>
-      <CurrentLine>70</CurrentLine>
+      <TopLine>303</TopLine>
+      <CurrentLine>303</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\..\..\Utilities\SIM28M\GPS_App.c</PathWithFileName>
       <FilenameWithoutPath>GPS_App.c</FilenameWithoutPath>
@@ -974,9 +974,15 @@
       <Documents>
         <Doc>
           <Name>..\main.c</Name>
-          <ColumnNumber>0</ColumnNumber>
-          <TopLine>611</TopLine>
-          <CurrentLine>611</CurrentLine>
+          <ColumnNumber>14</ColumnNumber>
+          <TopLine>552</TopLine>
+          <CurrentLine>566</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>..\..\..\Utilities\SIM28M\GPS_App.c</Name>
+          <ColumnNumber>21</ColumnNumber>
+          <TopLine>303</TopLine>
+          <CurrentLine>303</CurrentLine>
         </Doc>
       </Documents>
     </MDIGroup>
